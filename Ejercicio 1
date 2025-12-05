@@ -1,0 +1,34 @@
+iniciar-programa
+    inicia-ejecucion
+    	mientras ningun-zumbador-en-la-mochila hacer inicio
+           si frente-libre y izquierda-libre y derecha-libre entonces inicio
+            	gira-izquierda;
+                gira-izquierda;
+                gira-izquierda;
+                avanza;
+            fin;
+          si no-orientado-al-sur entonces inicio
+              gira-izquierda;
+              gira-izquierda;
+              gira-izquierda;
+              gira-izquierda;
+           fin;
+            si frente-libre y derecha-bloqueada y izquierda-libre entonces inicio
+                avanza;
+            fin;
+            si frente-bloqueado y derecha-bloqueada y izquierda-libre entonces inicio
+            	gira-izquierda;
+            fin;
+           si frente-bloqueado y derecha-libre y izquierda-libre entonces inicio
+           		gira-izquierda; 
+           fin;
+           si derecha-bloqueada y frente-bloqueado entonces inicio
+           		gira-izquierda;
+            fin;
+            si frente-libre y derecha-libre y izquierda-libre entonces inicio
+                avanza;
+           fin;
+        fin;
+        apagate;
+  termina-ejecución
+finalizar-programa
