@@ -10,7 +10,6 @@ FinFuncion
 Funcion mcm <- CalcularMCM(a, b)
     Definir mcdLocal Como Entero
     mcdLocal <- CalcularMCD(a, b)
-    // Formula del MCM: (a * b) / MCD(a,b)
     mcm <- (a * b) / mcdLocal
 FinFuncion
 Algoritmo Ejercicio6_MCM_VariosNumeros
