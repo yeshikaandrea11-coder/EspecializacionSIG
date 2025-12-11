@@ -11,16 +11,12 @@ Funcion esValida <- FechaValida(d, m, a)
                     maxdia <- 31
                 4,6,9,11:
                     maxdia <- 30
-                2:
-                    // Verificar si es año bisiesto
                     Si (a % 4 = 0 Y a % 100 <> 0) O (a % 400 = 0) Entonces
                         maxdia <- 29
                     SiNo
                         maxdia <- 28
                     FinSi
             FinSegun
-			
-            // Verificar rango del dia
             Si d < 1 O d > maxdia Entonces
                 esValida <- Falso
             FinSi
@@ -47,7 +43,6 @@ FinFuncion
 Proceso Ejercicio7_ValidarFecha
     Definir d, m, a Como Entero
     Definir mesLetra Como Cadena
-	
     Escribir "Ingrese dia:"
     Leer d
     Escribir "Ingrese mes:"
