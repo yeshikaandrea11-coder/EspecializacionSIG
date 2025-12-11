@@ -1,6 +1,6 @@
 Funcion contador <- ContarUnos
     Definir i, tiro Como Entero
-    contador <- 0   // inicializamos el contador
+    contador <- 0  
     Para i <- 1 Hasta 50 Hacer
         tiro <- azar(6) + 1
             contador <- contador + 1
