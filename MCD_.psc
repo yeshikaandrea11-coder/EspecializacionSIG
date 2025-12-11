@@ -5,7 +5,7 @@ Funcion mcd <- CalcularMCD(a, b)
         b <- a % b
         a <- temp
     FinMientras
-    mcd <- a
+    mcm <- a
 FinFuncion
 Funcion mcm <- CalcularMCM(a, b)
     Definir mcdLocal Como Entero
