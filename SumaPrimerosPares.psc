@@ -1,9 +1,9 @@
 Funcion suma <- SumarPares(n)
-    suma <- 0        // acumulador de la suma
-    num <- 6         // primer número par solicitado
+    suma <- 0     
+    num <- 6        
     Para i <- 1 Hasta n Con Paso 1 Hacer
-        suma <- suma + num   // acumula el valor
-        num <- num + 2       // siguiente número par
+        suma <- suma + num  
+        num <- num + 2     
     FinPara
 FinFuncion
 Proceso SumaPrimerosPares
