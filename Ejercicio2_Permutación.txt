@@ -10,5 +10,5 @@ else:
     while i < r:
         resultado = resultado * (n - i)
         i = i + 1
-
     print("La permutacion P(" + str(n) + "," + str(r) + ") es:", resultado)
+
