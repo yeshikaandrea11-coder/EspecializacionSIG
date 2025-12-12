@@ -1,0 +1,13 @@
+r = int(input("Ingrese el primer numero (r): "))
+n = int(input("Ingrese el segundo numero (n): "))
+if r <= 0 or n <= 0:
+    print("Error: deben ser enteros positivos")
+elif r > n:
+    print("Error: k no puede ser mayor que n")
+else:
+    resultado = 1
+    i = 0
+    while i < r:
+        resultado = resultado * (n - i)
+        i = i + 1
+    print("La permutacion P(" + str(n) + "," + str(r) + ") es:", resultado)

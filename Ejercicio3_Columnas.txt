@@ -1,0 +1,6 @@
+i = 1
+j = 100
+while i <= 100:
+    print(i, "   ", j)
+    i = i + 1
+    j = j - 1
