@@ -7,10 +7,11 @@ def factorial(x):
         f = f * i
         i = i + 1
     return f
-if r < 0 or n < 0:7
+if r < 0 or n < 0:
     print("Error: Los números deben ser numeros positivos")
 elif r > n:
     print("Error: r no puede ser mayor que n")
 else:
     comb = factorial(n) // (factorial(r) * factorial(n - r))
+
     print("La combinacion C(" + str(n) + "," + str(r) + ") es:", comb)
