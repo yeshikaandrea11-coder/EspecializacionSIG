@@ -4,7 +4,7 @@ public class Ropa{
 	String color;
 	boolean necesidadLavado;
 	int modelo;
-	Ropa(int talla, Strin tipo, String color){
+	Ropa(int talla, String tipo, String color){
 	this.talla=talla;
 	this.tipo=tipo;
 	this.color=color;
@@ -22,11 +22,12 @@ public class Ropa{
 			System.out.println("La "+tipo+" no necesita lavado");
 		}
 	}
-	public void cambio(int años){
-		while(años=0){
+	public void cambio(int añosUso){
+		while(añosUso>0){
 			System.out.println("La "+tipo+" es nueva");
 		}
 		System.out.println("La +"tipo+" se compro hace rato");
 	}
 }
+
 
